@@ -1,6 +1,6 @@
 # 🌍 Interactive 1D Climate Model Explorer
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-deployed-app-url.streamlit.app) <!-- *** Replace with your actual deployment URL! *** -->
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://energy-balance-model.streamlit.app/) 
 
 Welcome! This project provides an interactive web application built with Streamlit to explore a **1-Dimensional Energy Balance Model (EBM)** of planetary climate.
 
@@ -10,7 +10,7 @@ Whether you're a student learning about climate dynamics, an educator looking fo
 
 ## 🚀 Live Demo
 
-**[Access the interactive application here!](https://your-deployed-app-url.streamlit.app)** <!-- *** Replace with your actual deployment URL! *** -->
+**[Access the interactive application here!](https://energy-balance-model.streamlit.app/)** <!-- *** Replace with your actual deployment URL! *** -->
 
 *(Please allow a few moments for the application to load initially.)*
 
@@ -100,25 +100,17 @@ This model, while illustrative, has several simplifications:
 *   **Simplified Clouds:** Cloud effects on albedo and emissivity are currently minimal or ignored (a potential area for future work).
 *   **Numerical Method:** Uses a basic Forward Euler time-stepping scheme, requiring careful choice of time step (`dt`) for stability, especially with diffusion.
 
-## 💡 Potential Future Enhancements
-
-*   Implement dynamic ice-albedo feedback.
-*   Add seasonality to insolation.
-*   Incorporate a more sophisticated cloud parameterization.
-*   Explore different heat transport schemes.
-*   Add more detailed output plots (e.g., energy flux components).
-
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details (or state your chosen license).
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments (Optional)
+## 🙏 Acknowledgments
 
-*   Mention any specific EBM literature or courses that inspired the model (e.g., North & Coakley, Brian Rose's Climate Modelling Primer).
-*   Thank Streamlit and the supporting libraries.
+*   Global Warming I & II: A Course by University of Chicago; taught by [David Archer](https://www.coursera.org/instructor/davidarcher)
+*   Streamlit, Google AI studio
 
-## 📧 Contact (Optional)
+## 📧 Contact
 
-Your Name / Link to your profile or email.
+Binamra Bhusal | M.Sc. Climate Change & Development | https://binamra4bhusal@gmail.com
 
 ---
